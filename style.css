@@ -1,0 +1,54 @@
+/* resetowanie stylów domyślnych przeglądarki */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ustawienie stylów dla nagłówka strony */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+/* ustawienie stylów dla głównego kontenera */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* ustawienie stylów dla formularza */
+form {
+  margin-bottom: 20px;
+}
+
+/* ustawienie stylów dla sekcji wyświetlającej wyniki */
+.results {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+/* ustawienie stylów dla pojedynczego elementu w sekcji wyników */
+.result {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+/* ustawienie stylów dla przycisków */
+button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* ustawienie stylów dla linków */
+a {
+  color: #333;
+  text-decoration: none;
+}
